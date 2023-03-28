@@ -6,3 +6,17 @@ Tue 28 Mar 2023 11:45:52 PM UTC:
  tests:  0|6
 total_score: 0/70
 c24e93c
+Tue 28 Mar 2023 11:46:45 PM UTC: 
+ arraylist.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:14:3: error: conversion to non-scalar type requested
+   14 |   ArrayList Lista = (ArrayList) malloc(sizeof(ArrayList));
+      |   ^~~~~~~~~
+arraylist.c:14:13: error: unused variable ‘Lista’ [-Werror=unused-variable]
+   14 |   ArrayList Lista = (ArrayList) malloc(sizeof(ArrayList));
+      |             ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+01c3ed3
