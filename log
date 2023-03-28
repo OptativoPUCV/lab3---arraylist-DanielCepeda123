@@ -31,3 +31,9 @@ arraylist.c:14:14: error: unused variable ‘Lista’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 e24eac1
+Tue 28 Mar 2023 11:47:27 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|6
+total_score: 0/70
+4ace9f1
