@@ -22,8 +22,6 @@ ArrayList *createList(void) {
 
 void append(ArrayList * l, void * data){
 
-  int NuevoSize = l->size + 1;
-  l->size = NuevoSize;
   
   if (l->size == l->capacity)
   {
