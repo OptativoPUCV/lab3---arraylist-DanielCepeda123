@@ -119,3 +119,14 @@ arraylist.c:16:1: error: control reaches end of non-void function [-Werror=retur
 cc1: all warnings being treated as errors
 Compilation failed
 d70bfa1
+Wed 29 Mar 2023 12:13:23 AM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+test.c: In function ‘createList’:
+arraylist.c:15:12: error: ‘Lista’ is used uninitialized [-Werror=uninitialized]
+   15 |     return Lista;
+      |            ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+51eb73b
