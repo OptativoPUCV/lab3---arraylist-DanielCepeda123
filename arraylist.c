@@ -24,16 +24,16 @@ void append(ArrayList * l, void * data){
 
   l->size = (l->size + 1);
   
-  if (l->size == l->capacity)
-  {
+  //if (l->size == l->capacity)
+  //{
     //l->data = (void *) realloc(data, (l->capacity * 2));
     //l->data[l->size - 1] = data;
     
-  }
-  else
-  {
+ // }
+ // else
+  //{
     //l->data[l->size - 1] = data;
-  }
+  //}
   
   
   
