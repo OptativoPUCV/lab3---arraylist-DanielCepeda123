@@ -12,6 +12,8 @@ typedef struct ArrayList {
 
 ArrayList *createList(void) {
   ArrayList *Lista;
+  Lista->capacity = 5;
+  Lista->size = 2;
     return Lista;
 }
 
