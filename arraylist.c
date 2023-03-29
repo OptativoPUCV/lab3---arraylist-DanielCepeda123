@@ -22,7 +22,10 @@ ArrayList *createList(void) {
 
 void append(ArrayList * l, void * data){
 
-  //l->size++;
+  int size = l->size;
+  size = (size + 1) ;
+
+  l->size = size;
   
   if (l->size == l->capacity)
   {
