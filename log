@@ -76,3 +76,14 @@ arraylist.c:16:1: error: control reaches end of non-void function [-Werror=retur
 cc1: all warnings being treated as errors
 Compilation failed
 526a985
+Wed 29 Mar 2023 12:12:50 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:15:12: error: function returns address of local variable [-Werror=return-local-addr]
+   15 |     return &Lista;
+      |            ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+203e887

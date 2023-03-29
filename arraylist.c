@@ -12,7 +12,7 @@ typedef struct ArrayList {
 
 ArrayList *createList(void) {
   ArrayList Lista;
-    return Lista;
+    return &Lista;
 }
 
 void append(ArrayList * l, void * data){
