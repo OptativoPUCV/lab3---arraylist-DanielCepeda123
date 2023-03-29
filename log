@@ -87,3 +87,17 @@ arraylist.c:15:12: error: function returns address of local variable [-Werror=re
 cc1: all warnings being treated as errors
 Compilation failed
 203e887
+Wed 29 Mar 2023 12:12:57 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:15:12: error: invalid type argument of unary ‘*’ (have ‘ArrayList’ {aka ‘struct ArrayList’})
+   15 |     return *Lista;
+      |            ^~~~~~
+arraylist.c:16:1: error: control reaches end of non-void function [-Werror=return-type]
+   16 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+a0254c2
