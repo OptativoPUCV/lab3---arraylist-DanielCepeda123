@@ -76,6 +76,11 @@ void* pop(ArrayList * l, int i){
   void *valorEliminado = NULL;
   int j;
 
+  if (l->size == 0)
+  {
+    return NULL;
+  }
+  
   if( i >=0 )
   {
     valorEliminado = l->data[i];
@@ -84,6 +89,7 @@ void* pop(ArrayList * l, int i){
       {
         l->data[j] =l->data[j + 1];
       }
+    l->size = (l->size - 1);
   }
   else
   {
@@ -93,9 +99,9 @@ void* pop(ArrayList * l, int i){
       {
         l->data[j] = l->data[j + 1];
       }
-    
+    l->size = (l->size - 1);
   }
-  l->size = (l->size - 1);
+  
     return valorEliminado;
 }
 
