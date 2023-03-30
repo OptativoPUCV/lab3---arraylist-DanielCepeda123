@@ -129,6 +129,6 @@ void clean(ArrayList * l){
   l->capacity = 5;
   l->size = 0;
 
-  l->data = (void *) realloc(l->data, 2 * sizeof(*void));
+  //l->data = (void *) realloc(l->data, 2 * sizeof(void));
     
 }
