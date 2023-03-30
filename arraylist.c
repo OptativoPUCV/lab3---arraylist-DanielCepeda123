@@ -16,10 +16,11 @@ ArrayList *createList(void) {
   Lista = (ArrayList *) malloc(sizeof(ArrayList));
 
   if (Lista == NULL) return NULL;
-  
-  Lista->data = (void *) malloc(sizeof(void *));
+
   Lista->capacity = 2;
   Lista->size = 0;
+  Lista->data = (void *) malloc(sizeof(void *) * Lista->capacity);
+ 
   return Lista;
 }
 
