@@ -85,11 +85,11 @@ void* get(ArrayList * l, int i){
 
   if (i >= 0)
   {
-    
+    return l->data[i];
   }
   else
   {
-    return l->data[i];
+    
   }
   
     return NULL;
