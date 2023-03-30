@@ -44,7 +44,7 @@ void push(ArrayList * l, void * data, int i){
   
   if ( i > l->size)
   {
-    return NULL;
+    return ;
   }
 
   if (l->size == l->capacity)
@@ -77,6 +77,12 @@ void* pop(ArrayList * l, int i){
 }
 
 void* get(ArrayList * l, int i){
+
+  if ( i >= l->size)
+  {
+    return NULL;
+  }
+  
     return NULL;
 }
 

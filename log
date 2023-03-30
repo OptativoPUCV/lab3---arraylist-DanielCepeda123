@@ -690,3 +690,9 @@ arraylist.c:41:6: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 15b32c9
+Thu 30 Mar 2023 04:21:29 AM UTC: 
+ arraylist.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+ tests:  4|4
+total_score: 25/70
+4f83700
