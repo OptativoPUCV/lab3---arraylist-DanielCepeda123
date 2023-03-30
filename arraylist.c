@@ -113,10 +113,10 @@ void* get(ArrayList * l, int i){
   {
     return l->data[i];
   }
-  else
-  {
-    return l->data[l->size + i];
-  }
+  //else
+  //{
+    //return l->data[l->size + i];
+  //}
   
     return NULL;
 }
