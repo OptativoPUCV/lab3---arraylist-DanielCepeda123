@@ -759,3 +759,9 @@ arraylist.c:82:12: error: ‘valorEliminado’ may be used uninitialized in this
 cc1: all warnings being treated as errors
 Compilation failed
 32a1d20
+Thu 30 Mar 2023 12:35:05 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  7|3
+total_score: 35/70
+32adf13
