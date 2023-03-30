@@ -74,10 +74,17 @@ void push(ArrayList * l, void * data, int i){
 
 void* pop(ArrayList * l, int i){
   void *valorEliminado = NULL;
+  int j;
 
   if( i >=0 )
   {
     valorEliminado = l->data[i];
+
+    for (j = i ; j < l->size ; j++ )
+      {
+        l->data[i] =l->data[i - 1];
+      }
+    l->size -= 1;
   }
     return valorEliminado;
 }
