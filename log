@@ -676,3 +676,17 @@ Thu 30 Mar 2023 04:13:40 AM UTC:
  tests:  4|4
 total_score: 25/70
 ec210ef
+Thu 30 Mar 2023 04:16:44 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘push’:
+arraylist.c:47:12: error: ‘return’ with a value, in function returning void [-Werror=return-type]
+   47 |     return NULL;
+      |            ^~~~
+arraylist.c:41:6: note: declared here
+   41 | void push(ArrayList * l, void * data, int i){
+      |      ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+15b32c9
