@@ -887,3 +887,8 @@ arraylist.c:18:15: error: ‘Lista’ is used uninitialized [-Werror=uninitializ
 cc1: all warnings being treated as errors
 Compilation failed
 26f2eac
+Thu 30 Mar 2023 01:38:51 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+c98b957
