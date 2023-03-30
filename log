@@ -731,3 +731,14 @@ Thu 30 Mar 2023 04:44:55 AM UTC:
  tests:  7|3
 total_score: 35/70
 6a891e9
+Thu 30 Mar 2023 11:19:31 AM UTC: 
+ arraylist.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+In file included from test.c:5:
+arraylist.c: In function ‘pop’:
+arraylist.c:76:9: error: unused variable ‘valorEliminado’ [-Werror=unused-variable]
+   76 |   void *valorEliminado;
+      |         ^~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+cd15123
