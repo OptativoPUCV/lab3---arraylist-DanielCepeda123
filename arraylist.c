@@ -45,10 +45,7 @@ void push(ArrayList * l, void * data, int i){
 
   int j;
   
-  if ( i > l->size)
-  {
-    return ;
-  }
+  if ( i > l->size) return ;
 
   if (l->size == l->capacity)
   {
