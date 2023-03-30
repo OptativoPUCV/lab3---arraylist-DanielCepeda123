@@ -725,3 +725,9 @@ arraylist.c:80:7: error: unused variable ‘j’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 a50ac4a
+Thu 30 Mar 2023 04:44:55 AM UTC: 
+ arraylist.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  7|3
+total_score: 35/70
+6a891e9
