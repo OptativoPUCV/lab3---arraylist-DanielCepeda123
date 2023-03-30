@@ -73,7 +73,7 @@ void push(ArrayList * l, void * data, int i){
 }
 
 void* pop(ArrayList * l, int i){
-  void *valorEliminado;
+  //void *valorEliminado;
 
   if( i >=0 )
   {

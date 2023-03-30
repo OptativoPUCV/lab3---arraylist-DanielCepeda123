@@ -742,3 +742,9 @@ arraylist.c:76:9: error: unused variable ‘valorEliminado’ [-Werror=unused-va
 cc1: all warnings being treated as errors
 Compilation failed
 cd15123
+Thu 30 Mar 2023 11:19:47 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  7|3
+total_score: 35/70
+95195b7
