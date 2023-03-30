@@ -15,7 +15,7 @@ ArrayList *createList(void) {
   ArrayList *Lista = NULL;
   Lista = (ArrayList *) malloc(sizeof(ArrayList));
   
-  Lista->data = (void *) malloc(sizeof(void *));
+  Lista->data = (void *) malloc(sizeof(void ));
   Lista->capacity = 2;
   Lista->size = 0;
   return Lista;
@@ -130,6 +130,6 @@ void clean(ArrayList * l){
   l->capacity = 5;
   l->size = 0;
 
-  //l->data = (void *) realloc(l->data, 2 * sizeof(void *));
+  l->data = (void *) realloc(l->data, 2 * sizeof(void *));
     
 }
