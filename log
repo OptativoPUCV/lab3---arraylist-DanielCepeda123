@@ -1111,3 +1111,14 @@ Thu 30 Mar 2023 03:50:04 PM UTC:
  tests:  16|0
 total_score: 70/70
 7356549
+Thu 30 Mar 2023 03:50:46 PM UTC: 
+ arraylist.c | 8 --------
+ 1 file changed, 8 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:17:1: error: control reaches end of non-void function [-Werror=return-type]
+   17 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+496d233
