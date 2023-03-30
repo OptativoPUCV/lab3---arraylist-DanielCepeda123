@@ -898,3 +898,13 @@ Thu 30 Mar 2023 01:39:25 PM UTC:
  tests:  11|1
 total_score: 50/70
 6eab7fb
+Thu 30 Mar 2023 01:41:36 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘push’:
+arraylist.c:54:66: error: expected expression before ‘void’
+   54 |     l->data = (void *) realloc(l->data, (l->capacity) * sizeof( *void));
+      |                                                                  ^~~~
+Compilation failed
+b80e52a
