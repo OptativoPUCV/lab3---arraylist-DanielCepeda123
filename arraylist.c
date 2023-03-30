@@ -95,7 +95,7 @@ void* pop(ArrayList * l, int i){
       }
     
   }
-  //l->size = (l->size - 1);
+  l->size = (l->size - 1);
     return valorEliminado;
 }
 
