@@ -77,6 +77,7 @@ void* pop(ArrayList * l, int i){
 }
 
 void* get(ArrayList * l, int i){
+  int j;
 
   if ( i >= l->size)
   {
@@ -89,7 +90,7 @@ void* get(ArrayList * l, int i){
   }
   else
   {
-    
+    return l->data[l->size + i];
   }
   
     return NULL;
