@@ -59,13 +59,14 @@ void push(ArrayList * l, void * data, int i){
   }
   else
   {
+    l->size += 1;
     for (j = l->size ; j >= i ; j--)
       {
         l->data[j + 1] = l->data[j];
       }
 
       l->data[i] = data;
-      l->size += 1;
+      
     
   }
   
