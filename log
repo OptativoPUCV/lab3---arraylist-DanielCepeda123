@@ -855,3 +855,13 @@ Thu 30 Mar 2023 01:13:35 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 1347d73
+Thu 30 Mar 2023 01:14:04 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘clean’:
+arraylist.c:132:51: error: expected expression before ‘void’
+  132 |   l->data = (void *) realloc(l->data, 2 * sizeof(*void));
+      |                                                   ^~~~
+Compilation failed
+c7c06d3
