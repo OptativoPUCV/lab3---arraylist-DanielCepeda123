@@ -748,3 +748,14 @@ Thu 30 Mar 2023 11:19:47 AM UTC:
  tests:  7|3
 total_score: 35/70
 95195b7
+Thu 30 Mar 2023 12:34:32 PM UTC: 
+ arraylist.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘pop’:
+arraylist.c:82:12: error: ‘valorEliminado’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   82 |     return valorEliminado;
+      |            ^~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+32a1d20
