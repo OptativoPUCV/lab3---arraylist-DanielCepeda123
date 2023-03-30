@@ -89,7 +89,7 @@ void* get(ArrayList * l, int i){
   }
   else
   {
-    
+    return l->data[i];
   }
   
     return NULL;
