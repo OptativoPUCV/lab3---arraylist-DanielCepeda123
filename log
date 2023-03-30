@@ -610,3 +610,17 @@ arraylist.c:21:1: error: control reaches end of non-void function [-Werror=retur
 cc1: all warnings being treated as errors
 Compilation failed
 870206d
+Thu 30 Mar 2023 03:51:14 AM UTC: 
+ arraylist.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:21:3: error: ‘return’ with no value, in function returning non-void [-Werror=return-type]
+   21 |   return;
+      |   ^~~~~~
+arraylist.c:13:12: note: declared here
+   13 | ArrayList *createList(void) {
+      |            ^~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+e07c605

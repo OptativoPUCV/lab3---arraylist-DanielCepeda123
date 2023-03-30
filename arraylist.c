@@ -18,6 +18,7 @@ ArrayList *createList(void) {
  // Lista->capacity = 2;
  // Lista->size = 0;
    // return Lista;
+  return;
 }
 
 void append(ArrayList * l, void * data){
