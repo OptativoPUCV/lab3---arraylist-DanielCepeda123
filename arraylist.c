@@ -14,10 +14,10 @@ ArrayList *createList(void) {
   ArrayList *Lista;
   Lista = (ArrayList *) malloc(sizeof(ArrayList));
   
- // Lista->data = (void *) malloc(sizeof(void));
- // Lista->capacity = 2;
- // Lista->size = 0;
-    return Lista;
+  Lista->data = (void *) malloc(sizeof(void));
+  Lista->capacity = 2;
+  Lista->size = 0;
+  return Lista;
   
 }
 
