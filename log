@@ -876,3 +876,14 @@ Thu 30 Mar 2023 01:16:36 PM UTC:
  tests:  11|1
 total_score: 50/70
 8e3d852
+Thu 30 Mar 2023 01:38:31 PM UTC: 
+ arraylist.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+test.c: In function ‘createList’:
+arraylist.c:18:15: error: ‘Lista’ is used uninitialized [-Werror=uninitialized]
+   18 |   Lista->data = (void *) malloc(sizeof(void));
+      |   ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+26f2eac
