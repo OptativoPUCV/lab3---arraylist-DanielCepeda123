@@ -11,13 +11,13 @@ typedef struct ArrayList {
 } ArrayList;
 
 ArrayList *createList(void) {
-  ArrayList *Lista;
-  Lista = (ArrayList *) malloc(sizeof(ArrayList));
+  //ArrayList *Lista;
+  //Lista = (ArrayList *) malloc(sizeof(ArrayList));
   
-  Lista->data = (void *) malloc(sizeof(void));
-  Lista->capacity = 2;
-  Lista->size = 0;
-    return Lista;
+ // Lista->data = (void *) malloc(sizeof(void));
+ // Lista->capacity = 2;
+ // Lista->size = 0;
+   // return Lista;
 }
 
 void append(ArrayList * l, void * data){
@@ -49,7 +49,6 @@ void push(ArrayList * l, void * data, int i){
   if (l->size == l->capacity)
   {
     l->capacity *= 2;
-    
     l->data = (void *) realloc(l->data, (l->capacity) * sizeof(void));
     
     for (j = l->size ; j >= i ; j--)
