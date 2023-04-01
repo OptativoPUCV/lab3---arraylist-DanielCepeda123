@@ -50,7 +50,7 @@ void push(ArrayList * l, void * data, int i){
   if (l->capacity == l->size)
   {
     l->capacity *= 2;
-    l->data = (void **) realloc(l->data, (l->capacity) * sizeof(void *));
+    //l->data = (void **) realloc(l->data, (l->capacity) * sizeof(void *));
   }
 
   
@@ -126,9 +126,6 @@ int get_size(ArrayList * l){
 //remove elements
 void clean(ArrayList * l){
 
-  l->capacity = 2;
-  l->size = 0;
-
-  l->data = (void **) realloc(l->data, l->capacity * sizeof(void *));
+  
     
 }
