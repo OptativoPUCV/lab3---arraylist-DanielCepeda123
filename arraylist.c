@@ -26,8 +26,9 @@ if (i > l->size) return;
   if(l->capacity == l->size)
   {
        l->capacity *= 2;
-      //l->data = realloc(l->data, sizeof(void*) * l->capacity);
-
+      l->data = realloc(l->data, sizeof(void*) * l->capacity);
+   }
+    
       if(i < l->size)
       {
         int j;
@@ -42,7 +43,7 @@ if (i > l->size) return;
       l->size++;
 
     
-  }
+  
   
 
 }
