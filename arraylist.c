@@ -36,7 +36,7 @@ void append(ArrayList * l, void * data){
   else
   {
     l->data[l->size] = data;
-    l->size += 1;
+    l->size++;
   }
 
 }
