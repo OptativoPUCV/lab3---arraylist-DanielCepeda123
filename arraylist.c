@@ -26,7 +26,7 @@ if (i > l->size) return;
   if(l->capacity == l->size)
   {
        l->capacity *= 2;
-      l->data = realloc(l->data, sizeof(void*) * l->capacity);
+      //l->data = realloc(l->data, sizeof(void*)* l->capacity);
    }
     
       if(i < l->size)
@@ -41,11 +41,6 @@ if (i > l->size) return;
 
       l->data = data;
       l->size++;
-
-    
-  
-  
-
 }
 
 void* pop(ArrayList * l, int i){
