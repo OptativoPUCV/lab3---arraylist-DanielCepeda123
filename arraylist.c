@@ -33,7 +33,7 @@ if (i > l->size) return;
       {
         int j;
         
-        for(j = (l->size) ; j > (i) ; j--)
+        for(j = (l->size) ; j >= (i) ; j--)
           {
             l->data[j + 1] = l->data[j];
           }
